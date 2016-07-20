@@ -1,0 +1,12 @@
+<channels>
+  <!--
+  This file specifies the channels to be 'time' corrected by xmltv_time_correct.exe
+  Syntax of this file:
+  <channel time_error="+1">channel-name</channel>
+  -  time_error : the number of (decimal)hours the channel is 'off',
+   (so, if you want all shows of a channel 1 hour later in the output xmltv file, specify time_error="-1",
+   for 1:30 minutes earlier, specify time_error="1.5")
+  - channel-name, the xmltv_id as in webgrab++.config.xml of the channel you want to correct
+  Examples:
+  -->
+</channels>
