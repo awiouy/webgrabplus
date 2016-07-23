@@ -20,7 +20,7 @@ WebGrab+Plus Version V1.1.1
   <!--xmltv file : The xmltv target file in which the updated data will be merged with the grabbed EPG.
 Because of the incremental nature of the grabbing process this file must be different (name and/or path) from the target file of the grabbing as specified in WebGrab++.Config.xml <filename> !! 
 If omitted here or if by mistake the same file is specified, the file path will be changed to  C:\ProgramData\ServerCare\WebGrab\Rex\-->
-  <filename>/storage/.kodi/userdata/addon_data/service.webgrabplus/rex/guide.xml</filename>
+  <filename>/storage/.kodi/userdata/addon_data/service.webgrabplus/guide_rex.xml</filename>
   
   <!-- Configuration of the elements: -->
 <!-- Content and Values:-->

@@ -9,7 +9,7 @@ The path (required) + filename where the epgguide xml file is /will be located. 
 If the file already exist (from last run or from another xmltv source) it will read it and use what fits the requested output. In that case the file will be updated. If no such file exist it will be created.
 Change the following to your own needs  :
 -->
- <filename>/storage/.kodi/userdata/addon_data/service.webgrabplus/guide.xml</filename>
+ <filename>/storage/.kodi/userdata/addon_data/service.webgrabplus/guide_wgp.xml</filename>
   
   <!-- modes:   
 d or debug    saves the output xmltv file in a file with -debug addition in the file name . The original xmltv file will be kept.  
@@ -35,7 +35,7 @@ examples:
   <postprocess>mdb</postprocess>  same as above (uses defaults for grab and run)
   <postprocess grab="no">rex</postprocess>  runs rex without grab (existing xmltv file)
 -->
-  <postprocess run="y" grab="y">mdb</postprocess>
+  <postprocess run="n" grab="y">mdb</postprocess>
   
   <!-- proxy:
 This setting is only required if your computer is connected to internet behind a proxy
@@ -79,7 +79,7 @@ The timespan for which shows will be grabbed.
 It takes one or two values separated by a comma or a space. The first is the number of days (including today) to download, note that 0 is today. The second (optional) is a time specified between 0:00 and 24:00 which will reduce the download to only the one show (per day) which is scheduled around the specified time. Any value between start time (including) and stop time will do
 This -one-show-only mode is helpfull if a SiteIni file needs to be debugged
 -->
-  <timespan>0</timespan>
+  <timespan>1</timespan>
 
   <!-- update mode
 i or incremental     only updates of changes , gabs, repairs and new shows
@@ -113,4 +113,5 @@ The xmltv_id can be any string that suits your needs, you will find it back as t
 Be aware that all channels entered here will be included in the xmltv channel table even if no update is requested. This allows the update of individual channels without affecting the data of the others in the list. A channel not in this list will be removed from your xmltv listing together with all the show data of it if found there by WebGrab+Plus. (If you use WebGrab+Plus with a xmltv input file from another source, it will remove all data from channels not in this list and create an entry for new channels)
 WebGrab+Plus uses the xmltv_id to identify a channel in an existing xmltv file.
 -->    
+  <channel update="i" site="telerama.fr" site_id="111" xmltv_id="Arte">Arte</channel>
 </settings>
