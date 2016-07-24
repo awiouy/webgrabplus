@@ -43,7 +43,7 @@ examples :
   <!--xmltv file : The xmltv target file in which the mdb data will be merged with the grabbed EPG.
 Because of the incremental nature of the grabbing process this file must be different (name and/or path) from the target file of the grabbing as specified in WebGrab++.Config.xml <filename> !! 
 If omitted here or if by mistake the same file is specified , the file path will be changed to  C:\ProgramData\ServerCare\WebGrab\mdb\ -->
-  <filename>/storage/.kodi/userdata/addon_data/service.webgrabplus/mdb/guide.xml</filename>
+  <filename>/storage/.kodi/userdata/addon_data/service.webgrabplus/guide_mdb.xml</filename>
   
   <!--local MDB data file
 The file that stores the mdb data locally with the intention to re-use already grabbed data which will speed up the grabbing of the mdb data.
@@ -53,7 +53,7 @@ If not specified no MDB data file will be used.
       update="i" , incremental, only the selected shows will be saved in the local MDB data file
       update="f" , all shows will be kept and new shows added. This is the prefered update mode.
       (Over time this MDB data file could grow to an unpractical size with update="f". Unpractical if the time to match a selected show in this file exceeds the time to do the same online).   -->
-  <ldbfilename update="f">/storage/.kodi/userdata/addon_data/service.webgrabplus/mdb/mdb.xml</ldbfilename>
+  <ldbfilename update="f">/storage/.kodi/userdata/addon_data/service.webgrabplus/mdb.xml</ldbfilename>
   
   <!--Selection :
   selectmovie and/or selectserie: the imdb postprocessor selects shows from the xmltv file for which imdb data will be attempted to optain based on these two selection settings.
