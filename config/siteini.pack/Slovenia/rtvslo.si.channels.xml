@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V1.56.15 -- Jan van Straaten" site="rtvslo.si">
+<site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version V1.56.28.2 -- Jan van Straaten" site="rtvslo.si">
   <channels>
     <channel update="i" site="rtvslo.si" site_id="tvs1" xmltv_id="TVS1">TVS1</channel>
     <channel update="i" site="rtvslo.si" site_id="tvs2" xmltv_id="TVS2">TVS2</channel>
