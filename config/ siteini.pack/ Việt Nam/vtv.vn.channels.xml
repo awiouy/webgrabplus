@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <site generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version 1.54.6/0.01 -- Jan van Straaten" site="vtv.vn">
   <channels>
-    <channel update="i" site="vtv.vn" site_id="1" xmltv_id="VTV1">VTV1</channel>
-    <channel update="i" site="vtv.vn" site_id="2" xmltv_id="VTV2">VTV2</channel>
-    <channel update="i" site="vtv.vn" site_id="3" xmltv_id="VTV3">VTV3</channel>
+    <channel update="i" site="vtv.vn" site_id="1" xmltv_id="VTV1">VTV1</channel>te="i" site="vtv.vn" site_id="3" xmltv_id="VTV3">VTV3</channel>
     <channel update="i" site="vtv.vn" site_id="4" xmltv_id="VTV4">VTV4</channel>
     <channel update="i" site="vtv.vn" site_id="5" xmltv_id="VTV5">VTV5</channel>
     <channel update="i" site="vtv.vn" site_id="6" xmltv_id="VTV6">VTV6</channel>
@@ -17,6 +15,4 @@
     <channel update="i" site="vtv.vn" site_id="13" xmltv_id="VTVCab6 - HayTV">VTVCab6 - HayTV</channel>
     <channel update="i" site="vtv.vn" site_id="20" xmltv_id="VTVCab7 - D Dramas">VTVCab7 - D Dramas</channel>
     <channel update="i" site="vtv.vn" site_id="14" xmltv_id="VTVCab8 - BiBi">VTVCab8 - BiBi</channel>
-    <channel update="i" site="vtv.vn" site_id="21" xmltv_id="VTVCab17 - Yeah 1">VTVCab17 - Yeah 1</channel>
-  </channels>
-</site>
+  
